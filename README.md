@@ -72,8 +72,8 @@ CREATE TABLE register (
 1. Start MySQL server and ensure the `library` database with tables is created  
 2. Clone this repository:
    ```bash
-   git clone https://github.com/rajdeep-das-2007/library-management-system.git
-   cd library-management-system
+   git clone https://github.com/rajdeep-das-2007/Library_Management_System_Python.git
+   cd Library_Management_System_Python
    ```
 3. Run the script:
    ```bash
