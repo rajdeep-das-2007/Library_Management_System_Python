@@ -91,3 +91,53 @@ CREATE TABLE register (
 - All data is stored directly in MySQL tables  
 
 ---
+
+## Operations
+
+![Main Menu](main_menu.png)
+
+## Library Management System – Features
+
+### 1. Book Entry
+Register a new book with the following details:
+- Book No.
+- Book Name
+- Author Name
+- Price
+- Quantity (Number of Copies)
+
+### 2. Register Member
+Add a new library member by entering:
+- Member No.
+- Member Name
+- Mobile Number
+
+### 3. Issue Book
+Issue a book to a member with:
+- Issue No.
+- Book No.
+- Member No.
+- Due Date
+
+### 4. View Issued Book (By Issue No.)
+Get complete details of a book issued using the Issue Number.
+
+### 5. View All Books
+Display a list of all books available in the library.
+
+### 6. View All Members
+Display a list of all registered library members.
+
+### 7. View All Issued Books
+See all books currently issued to members.
+
+### 8. Update Details
+Modify or update library data:
+- Extend Due Date of issued book
+- Cancel a Membership
+
+### 9. Return Book
+Return a book using the corresponding Issue Number.
+
+### 0. Exit
+Exit the application safely.
