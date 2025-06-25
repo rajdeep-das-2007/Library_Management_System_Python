@@ -141,6 +141,13 @@ Return a book using the corresponding Issue Number.
 
 ### 0. Exit
 Exit the application safely.
+## 100: Truncate Library Data
+    This is a special admin-only feature used to delete or reset the library database.
+- Option 1 – Deletes all records from the `book` table.
+- Option 2 – Deletes all records from the `member` table.
+- Option 3 – Deletes all entries from the `register` (issued books) table.
+- Option 4 – Deletes everything from `book`, `member`, and `register` tables.
+- Option 0 – Cancels the operation.
 # System Design
 
 ![System Design](FlowChart.svg)
