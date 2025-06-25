@@ -1,22 +1,22 @@
-# 📚 Library Management System (CLI) — Windows Only
+# Library Management System (CLI) — Windows Only
 
-A simple **Command-Line Library Management System** built using **Python** and **MySQL**.  
+A simple Command-Line Library Management System built using Python and MySQL.  
 This project helps manage books and members in a library with issue/return log features — all through a terminal interface.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ➕ Add / 🗑️ Delete / ✏️ Update books and members  
-- 📋 Display all books and members  
-- 🔍 Search books by ID or Name  
-- 📊 Sort books by ID or Name  
-- 📥 Issue and 🔁 Return books  
-- 📘 View complete register/logs (issue/return history)
+- Add / Delete / Update books and members  
+- Display all books and members  
+- Search books by ID or Name  
+- Sort books by ID or Name  
+- Issue and Return books  
+- View complete register/logs (issue/return history)
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - Python 3.x  
 - MySQL Server (running on `localhost`)  
@@ -25,15 +25,15 @@ This project helps manage books and members in a library with issue/return log f
   ```bash
   pip install mysql-connector-python
   ```
-- OS: **Windows only** (uses `os.system('cls')` for screen clearing)
+- OS: Windows only (uses `os.system('cls')` for screen clearing)
 
 ---
 
-## 🏗️ Database Schema
+## Database Schema
 
-### 📌 Database Name: `library`
+### Database Name: `library`
 
-### 📘 Table: `book`
+### Table: `book`
 ```sql
 CREATE TABLE book (
     id INT PRIMARY KEY,
@@ -44,7 +44,7 @@ CREATE TABLE book (
 );
 ```
 
-### 👤 Table: `member`
+### Table: `member`
 ```sql
 CREATE TABLE member (
     id INT PRIMARY KEY,
@@ -53,7 +53,7 @@ CREATE TABLE member (
 );
 ```
 
-### 📜 Table: `register`
+### Table: `register`
 ```sql
 CREATE TABLE register (
     book_id INT,
@@ -67,7 +67,7 @@ CREATE TABLE register (
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Start MySQL server and ensure the `library` database with tables is created  
 2. Clone this repository:
@@ -79,13 +79,13 @@ CREATE TABLE register (
    ```bash
    python library_management.py
    ```
-4. Use the terminal interface to manage the library!
+4. Use the terminal interface to manage the library
 
 ---
 
-## ⚠️ Notes
+## Notes
 
-- Works only on **Windows OS** due to usage of `cls` command for screen clearing  
+- Works only on Windows OS due to usage of `cls` command for screen clearing  
 - Ensure correct MySQL credentials and database name in the script  
 - No GUI — pure terminal-based interaction  
 - All data is stored directly in MySQL tables  
