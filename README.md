@@ -141,3 +141,6 @@ Return a book using the corresponding Issue Number.
 
 ### 0. Exit
 Exit the application safely.
+# System Design
+
+![System Design](FlowChart.svg)
